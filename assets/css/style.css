@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    justify-items: center;
+    background-color: #1D1A1A;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.col-5 {
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.linc:hover .icon {
+    background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
+    color: white;
+}
+
+.linc:hover {
+    background-color: #0C0B0B;
+}
+
+.head {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 61.44px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.text {
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    width: 660px;
+    height: 128px;
+    color: #BBBABA;
+
+}
+
+.icon {
+    background: white;
+    width: 71px;
+    height: 71px;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.main {
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.para {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    color: #B9B8B8;
+
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.linc {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+    border-radius: 46px;
+    background-color: #151313;
+    padding-left: 13px;
+    padding-bottom: 11px;
+    padding-top: 10px;
+    width: 500px;
+
+}
+
+.img {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    top: 125px;
+}
+
+.card-1 {
+    overflow: hidden;
+}
